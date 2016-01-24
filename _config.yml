@@ -1,0 +1,39 @@
+title: CSCI-UA.0380 Spring 2016, Section 004
+email: jversoza@cs.nyu.edu
+
+# course
+# CSCI-UA.0101-004 
+course_number: "CSCI-UA.0380"
+course_section: "004"
+course_name: "Python for Applications"
+course_semester: "Spring 2016"
+course_time: "Mondays and Wednesdays, 9:30AM to 10:45AM"
+course_room: WWH 312
+course_site: http://foureyes.github.io/csci-ua.0380-spring2016-004/
+course_site_alt: http://jvers.com/teaching
+
+# office hours
+office_hours: "Mondays and Wednesdays 11:00AM to 12:00PM, Tuesdays 12:30pm to 1:30pm"
+office_hours_room: WWH 423
+
+# finals
+final_date: TBD
+final_time: TBD
+final_room: TBD
+
+baseurl: ""
+resource_prefix: "resources/"
+github_username: jversoza
+slides_lib: "../../resources/lib"
+slides_img_prefix: "../../resources/img"
+
+markdown: kramdown
+kramdown:
+  entity_output: numeric
+  smart_quotes: apos,apos,quot,quot
+permalink: none
+exclude: [bower_components, README.md, bower.json, gruntfile.js, node_modules]
+
+book: Introduction to Java Programming
+book_link: TBD
+book_author: Liang

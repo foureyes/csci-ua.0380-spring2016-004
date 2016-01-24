@@ -1,0 +1,13 @@
+	<td markdown="block">
+<!-- 
+* [](slides//.html)
+* [](slides//.html)
+-->
+</td>
+	<td markdown="block">
+</td>
+	<td markdown="block">
+<!--
+* [](assignments/.html)
+-->
+</td>

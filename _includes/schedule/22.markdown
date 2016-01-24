@@ -1,0 +1,16 @@
+	<td markdown="block">
+* [Finishing up Object Oriented Thinking](slides/22/oop-thinking-conclusion.html)
+	* Immutable Classes
+	* Class Relationships
+	* Primitives as Objects
+	* BigInteger, BigDecimal
+* Inheritance Preview
+</td>
+	<td markdown="block">
+* __Chapter 11__ - Inheritance and Polymorphism
+</td>
+	<td markdown="block">
+<!--
+* [](assignments/.html)
+-->
+</td>

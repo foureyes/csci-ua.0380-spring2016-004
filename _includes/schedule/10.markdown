@@ -1,0 +1,23 @@
+	<td markdown="block">
+* [Arrays Continued](slides/10/arrays-continued.html)
+* Midterm #1
+	* [Practice Questions](resources/handouts/midterm_1/midterm_1_practice.pdf)
+	* [Practice Questions Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
+* Homework #2 Solutions
+	* [Lottery](resources/code/hw02-solutions/Lottery.java)
+	* [OddsEvens](resources/code/hw02-solutions/OddsEvens.java)
+* Homework #3 Solutions
+	* [CoinFlip](resources/code/hw03-solutions/CoinFlip.java)
+	* [Loan](resources/code/hw03-solutions/Loan.java)
+	* [ToDecimal](resources/code/hw03-solutions/ToDecimal.java)
+* Homework #4 Solutions
+	* [Pig](resources/code/hw04-solutions/Pig.java)
+	* [Pyramid1](resources/code/hw04-solutions/Pyramid1.java)
+* Homework #5 Solutions
+	* to be posted Monday evening
+</td>
+	<td markdown="block">
+* __Chapter 7__ - Single-Dimensional Arrays
+</td>
+	<td markdown="block">
+</td>

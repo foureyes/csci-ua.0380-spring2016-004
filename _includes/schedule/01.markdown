@@ -1,0 +1,16 @@
+	<td markdown="block">
+* [](slides/01/.html)
+* [](slides/01/.html)
+
+<!--
+* [First Java Program](slides/01/first-java.html)
+-->
+</td>
+	<td markdown="block">
+* __Chapter 1__ - Introduction to Computers, Programs, and Java
+</td>
+	<td markdown="block">
+* Read Chapter 1
+* Install Java and Eclipse 
+* Submit [Assignment #1](assignments/hw01.html)
+</td>

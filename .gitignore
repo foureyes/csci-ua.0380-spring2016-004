@@ -1,0 +1,8 @@
+*.swp
+_site
+node_modules
+bower_components
+.DS_Store
+.jekyll-metadata
+_includes/archive
+archive.markdown
