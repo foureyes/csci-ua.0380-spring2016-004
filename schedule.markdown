@@ -25,12 +25,6 @@ Programming Topics
 * Python Overview
 * Setup
 * Basic Control Structures
-* Functions
-* turtle module (maybe)
-
-Application
-
-* Animation (maybe)
 
 {% comment %} TODO: old class 2 {% endcomment %}
 </td>
@@ -44,6 +38,9 @@ Application
 
 Programming Topics
 
+* Exceptions
+* Functions
+* turtle module
 * Modules
 * math module
 * random module
@@ -51,12 +48,11 @@ Programming Topics
 
 Application
 
+* Animation (maybe)
 * Calculating Pi
 * Monte Carlo Approximation
 </td>
-{% comment %}
 {% include schedule/02.markdown %}
-{% endcomment %}
 <td></td><td></td><td></td>
  </tr>
 

@@ -22,7 +22,7 @@ From the Official Python Documentation
 </td>
 	<td markdown="block">
 
-Assignment #1 to be posted
+* Quiz to be posted
 
 {% comment %}
 * [Assignment #1](assignments/hw01.html)
