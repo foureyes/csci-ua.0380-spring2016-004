@@ -13,6 +13,7 @@ From {{ site.book1 }}
 
 * Ch 3 - Codes and Other Secrets
 * Ch 4 - A Nest of Snakes
+* (optionally Ch 1 and Ch 2 if you need a refresher on Python basics and turtle)
 
 From the Official Python Documentation
 
