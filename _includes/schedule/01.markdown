@@ -1,16 +1,30 @@
 	<td markdown="block">
-* [](slides/01/.html)
-* [](slides/01/.html)
+* [Introductions](slides/01/intro.html)
+* [Required Software](slides/01/required-software.html)
+* [Python Overview](slides/01/python-overview.html)
 
 <!--
 * [First Java Program](slides/01/first-java.html)
 -->
 </td>
 	<td markdown="block">
-* __Chapter 1__ - Introduction to Computers, Programs, and Java
+
+From {{ site.book1 }}
+
+* Ch 3 - Codes and Other Secrets
+* Ch 4 - A Nest of Snakes
+
+From the Official Python Documentation
+
+* [3.1: Objects Values and Types](https://docs.python.org/3.5/reference/datamodel.html#objects-values-and-types)
+* [9.1: Names and Objects](https://docs.python.org/3/tutorial/classes.html#a-word-about-names-and-objects)
+* [9.2: Python Scopes and Namespaces](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces)
 </td>
 	<td markdown="block">
-* Read Chapter 1
-* Install Java and Eclipse 
-* Submit [Assignment #1](assignments/hw01.html)
+
+Assignment #1 to be posted
+
+{% comment %}
+* [Assignment #1](assignments/hw01.html)
+{% endcomment %}
 </td>

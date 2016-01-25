@@ -21,17 +21,16 @@ nav-state: schedule
 
 Programming Topics
 
+* Introductions
 * Python Overview
 * Setup
 * Basic Control Structures
 * Functions
-* turtle module
-* random module
+* turtle module (maybe)
 
 Application
 
-* Animation
-* Simple Game
+* Animation (maybe)
 
 {% comment %} TODO: old class 2 {% endcomment %}
 </td>
@@ -47,6 +46,7 @@ Programming Topics
 
 * Modules
 * math module
+* random module
 * matplotlib
 
 Application

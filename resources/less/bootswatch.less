@@ -1,40 +1,78 @@
-// Journal 3.3.2
+// Readable 3.3.5
 // Bootswatch
 // -----------------------------------------------------
 
-@import url("//fonts.googleapis.com/css?family=News+Cycle:400,700");
+@web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,700";
+
+.web-font(@path) {
+  @import url("@{path}");
+}
+.web-font(@web-font-path);
 
 // Navbar =====================================================================
 
 .navbar {
-  font-size: 18px;
-  font-family: @font-family-sans-serif;
-  font-weight: @headings-font-weight;
+  font-family: @headings-font-family;
 
-  &-default {
+  &-nav,
+  &-form {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .badge {
-      background-color: #000;
-      color: #fff;
+  &-nav > li > a {
+    @margin-vertical: ((@navbar-height - 2*@padding-base-vertical - @line-height-computed - 2px) / 2);
+    margin: @margin-vertical 6px;
+    padding: @padding-base-vertical @padding-base-horizontal;
+    border: 1px solid transparent;
+    border-radius: @border-radius-base;
+
+    &:hover {
+      border: 1px solid #ddd;
     }
   }
 
-  &-inverse {
+  &-nav > .active > a,
+  &-nav > .active > a:hover {
+    border: 1px solid #ddd;
+  }
 
-    .badge {
-      background-color: #fff;
-      color: @navbar-inverse-bg;
+  &-default .navbar-nav > .active > a:hover {
+    color: @navbar-default-link-hover-color;
+  }
+
+  &-inverse .navbar-nav > .active > a:hover {
+    color: @navbar-inverse-link-hover-color;
+  }
+
+  &-brand {
+    padding-top: ((@navbar-height - 2*@font-size-large) / 2);
+    padding-bottom: ((@navbar-height - 2*@font-size-large) / 2);
+    line-height: 1.9;
+  }
+}
+
+@media (min-width: @grid-float-breakpoint) {
+  .navbar {
+    .navbar-nav > li > a {
+      padding: @padding-base-vertical @padding-base-horizontal;
     }
   }
 }
 
-.navbar-brand {
-  font-size: inherit;
-  font-weight: @headings-font-weight;
-  text-transform: uppercase;
+@media (max-width: (@grid-float-breakpoint - 1)) {
+  .navbar {
+    .navbar-nav > li > a {
+      margin: 0;
+    }
+  }
 }
 
 // Buttons ====================================================================
+
+.btn {
+  font-family: @headings-font-family;
+}
 
 // Typography =================================================================
 
@@ -42,79 +80,108 @@
 
 // Forms ======================================================================
 
-.has-warning {
-  .help-block,
-  .control-label,
-  .form-control-feedback {
-    color: @brand-danger;
-  }
-
-  .form-control,
-  .form-control:focus {
-    border-color: @brand-danger;
-  }
+legend {
+  font-family: @headings-font-family;
 }
 
-.has-error {
-  .help-block,
-  .control-label,
-  .form-control-feedback {
-    color: @brand-primary;
-  }
-
-  .form-control,
-  .form-control:focus {
-    border-color: @brand-primary;
-  }
-}
-
-.has-success {
-  .help-block,
-  .control-label,
-  .form-control-feedback {
-    color: @brand-success;
-  }
-
-  .form-control,
-  .form-control:focus {
-    border-color: @brand-success;
-  }
+.input-group-addon {
+  font-family: @font-family-sans-serif;
 }
 
 // Navs =======================================================================
 
+.nav {
+  .open > a,
+  .open > a:hover,
+  .open > a:focus {
+    border: 1px solid #ddd;
+  }
+}
+
+.pagination {
+
+  font-family: @headings-font-family;
+
+  &-lg > li > a,
+  &-lg > li > span {
+    padding: 14px 24px;
+  }
+}
+
+.pager {
+
+  font-family: @headings-font-family;
+
+  a {
+    color: @text-color;
+  }
+
+  a:hover {
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .disabled a {
+    border-color: @pager-border;
+  }
+}
+
 // Indicators =================================================================
 
+.close {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  opacity: 0.4;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    opacity: 1;
+  }
+}
+
+.alert {
+  .alert-link {
+    color: @alert-success-text;
+    text-decoration: underline;
+  }
+}
+
+.label {
+  font-family: @headings-font-family;
+  font-weight: normal;
+
+  &-default {
+    border: 1px solid #ddd;
+    color: @text-color;
+  }
+
+}
+
 .badge {
-  padding-bottom: 4px;
-  vertical-align: 3px;
-  font-size: 10px;
+  padding: 1px 7px 5px;
+  vertical-align: 2px;
+  font-family: @headings-font-family;
+  font-weight: normal;
 }
 
 // Progress bars ==============================================================
 
 // Containers =================================================================
 
-.jumbotron {
+.panel {
+  .box-shadow(none);
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: @font-family-sans-serif;
-    font-weight: @headings-font-weight;
-    color: #000;
+  &-default {
+    .close {
+      color: @text-color;
+    }
   }
 }
 
-.panel {
-
-  &-primary,
-  &-success,
-  &-warning,
-  &-danger,
-  &-info {
-    .panel-title {
-      color: #fff;
-    }
+.modal {
+  .close {
+    color: @text-color;
   }
-
-
 }

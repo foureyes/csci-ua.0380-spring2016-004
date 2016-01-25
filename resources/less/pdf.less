@@ -6,12 +6,22 @@
 * {
 	-webkit-print-color-adjust: exact;
 }
+body {
+	/*font-size:100% !important; */
+	font-size: 1em !important;
+	line-height: 1.5 !important;
+}
 
+.reveal.page .slides section:not(.stack):before {
+	content: none !important;
+}
+.reveal {
+	font-size: 1em;
+}
 .reveal, .reveal strong {
 
-	font-size: 12px;
 	font-family: georgia, serif;
-	color: black;
+	color: #494949;
 	background-color:white;
 	h1, h2, h3, h4 {
 		color:black;
@@ -26,11 +36,20 @@
 .reveal.page .slides > section.present,  
 {
 	min-height: 0;
-	width: 700px;
 }
 
+
+.reveal.page .slides section {
+	min-height: 0;
+}
 .reveal .slides section {
-	padding-top: 0.25em;
+	padding: 1em !important;
+	border: 1px solid #bbb;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 40em;
+	line-height: 1.5;
 }
 
 .reveal.page .slides section:not(.stack):before {

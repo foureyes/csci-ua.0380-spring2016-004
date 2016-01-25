@@ -28,11 +28,45 @@
 				document.getElementsByTagName( 'head' )[0].appendChild( link );
 				document.addEventListener('DOMContentLoaded', function() {
 					console.log("loaded");
-					[].forEach.call(document.getElementsByTagName("section"), function(el) {el.setAttribute("style", "")});
+					[].forEach.call(document.getElementsByTagName("section"), function(el) {
+						el.setAttribute("style", "");
+						el.classList.remove('future');
+					});
 					document.querySelector('div.reveal').removeChild(document.querySelector('.backgrounds'));
 				});
+			} else {
+				document.addEventListener('DOMContentLoaded', function() {
+					var printLink = document.createElement('a'),
+						controls = document.querySelector('.controls')
+					printLink.href = "?print-pdf";
+					printLink.textContent = 'print version';
+					printLink.style.display = "block";
+					printLink.style.top = "92px";
+					printLink.style.fontSize = "0.5em";
+					controls.style.textAlign = 'center';
+					controls.appendChild(printLink);
+				});
 			}
+/*
+			document.addEventListener('DOMContentLoaded', function() {
+				var divs = document.querySelectorAll('div[data-editable]');
+				Array.prototype.forEach.call(divs, function(div) {
+					var editor = ace.edit(div);
+					editor.setTheme("ace/theme/monokai");
+					editor.getSession().setMode("ace/mode/python");
+				});
+			});
+*/
 		</script>
+		<style>
+div[data-editable] {
+		position: relative;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+}
+		</style>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -47,6 +81,8 @@
 			</div>
 
 		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ace.js" type="text/javascript" charset="utf-8"></script>
+
 
 		<script src="{{ site.slides_lib }}/reveal.js/lib/js/head.min.js"></script>
 		<script src="{{ site.slides_lib }}/reveal.js/js/reveal.min.js"></script>
@@ -71,7 +107,7 @@
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: '{{ site.slides_lib }}/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '{{ site.slides_lib }}/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.configure({languages: ['js', 'html']});} },
+					{ src: '{{ site.slides_lib }}/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.configure({languages: ['js', 'html', 'py', 'python']});} },
 					{ src: '{{ site.slides_lib }}/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: '{{ site.slides_lib }}/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]

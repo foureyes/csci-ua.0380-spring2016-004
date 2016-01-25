@@ -95,8 +95,8 @@ This course introduces object-oriented programming, recursion, and other importa
 * 20% - Homework
 * 5% - Online Quizzes 
 * 5% - In-Class Activities
-* 20% - Midterm
-* 35% - Final Exam
+* 25% - Midterm
+* 30% - Final Exam
 * 15% - Final Project
 
 </div>

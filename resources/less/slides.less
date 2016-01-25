@@ -1,4 +1,3 @@
-@import "../lib/reveal.js/lib/font/source-sans-pro/source-sans-pro.css";
 @import "colors.less";
 /**
  * Black theme for reveal.js. This is the opposite of the 'white' theme.
@@ -12,11 +11,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: @dark_gray;
-  background-color: @dark_gray; }
+  background: @background_color;
+  background-color: @background_color; }
 
 .reveal {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 32px;
   font-weight: normal;
   color: #fff; }
@@ -36,12 +35,12 @@ body {
  *********************************************/
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
-  color: @yellow;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  color: @header_color;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-shadow: none;
   word-wrap: break-word; 
   text-align:center;}
@@ -82,7 +81,7 @@ body {
 
 .reveal strong, .reveal b {
   font-weight: bold; 
-  color: @light_green;}
+  color: @strong_color;}
 
 .reveal em {
   font-style: italic; }
@@ -196,7 +195,7 @@ body {
  *********************************************/
 .reveal a {
   color: #42affa;
-  text-decoration: none;
+  text-decoration: underline;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }

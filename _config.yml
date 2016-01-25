@@ -1,5 +1,5 @@
 title: CSCI-UA.0380 Spring 2016, Section 004
-email: jversoza@cs.nyu.edu
+email: jversoza at cs dot nyu dot edu
 
 # course
 # CSCI-UA.0101-004 
@@ -16,10 +16,17 @@ course_site_alt: http://jvers.com/teaching
 office_hours: "Mondays and Wednesdays 11:00AM to 12:00PM, Tuesdays 12:30pm to 1:30pm"
 office_hours_room: WWH 423
 
+# midterm
+midterm1_date: Wednesday, March 9th
+midterm1_time: 9:30 AM - 10:45 AM
+
 # finals
-final_date: TBD
-final_time: TBD
-final_room: TBD
+final_date: Wednesday, May 11th
+final_time: 8:00 AM - 9:50 AM
+final_room: TBD (probably WWH 312)
+
+
+
 
 baseurl: ""
 resource_prefix: "resources/"
@@ -34,6 +41,10 @@ kramdown:
 permalink: none
 exclude: [bower_components, README.md, bower.json, gruntfile.js, node_modules]
 
-book: Introduction to Java Programming
-book_link: TBD
-book_author: Liang
+book1: Python Programming in Context, 2nd Edition
+book1_link: http://www.jblearning.com/catalog/9781449699390/
+book1_author: Bradley N. Miller, PhD and David L. Ranum, PhD
+
+book2: Python Cookbook
+book2_link: http://chimera.labs.oreilly.com/books/1230000000393/index.html
+book2_author: David Beazley and Brian K. Jones
