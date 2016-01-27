@@ -89,12 +89,13 @@ title: "Notes"
         * intersection w/ rects
             * x1, y1, x2, y2
 
-* creating and installing modules
+## creating and installing modules
     * what's a module again?
     * um... then it should be in our file system?
     * where does python look?
         * cur dir
         * PYTHON PATH
+        * system wide
     * create a module
         * same path
         * drop into Python path?
@@ -104,8 +105,11 @@ title: "Notes"
         * site-packages
         * easy_install
         * pip
+        * (diff versions per version of python)
         * use pycharm PyCharm &rarr; preferences &rarr; Porject Interpreter &rarr; +
     * what's a virutalenv?
+        * why?
+        * how does it work in pycharm
 * matplotlib
     * <code>import matplotlib.pyplot as plt</code>
     * <code>http://matplotlib.org/api/markers_api.html</code>
