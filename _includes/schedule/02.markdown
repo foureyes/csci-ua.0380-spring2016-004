@@ -1,7 +1,16 @@
 	<td markdown="block">
+Slides and notes to be posted after class
+
+* Functions
+* Modules - math, random and turtle
+* Creating Modules, Installing Modules
+* matplotlib Demo
 </td>
 	<td markdown="block">
 </td>
 	<td markdown="block">
 * Assignment #1 to be posted
+    * game
+    * matplotlib monte carlo appoximation
+
 </td>
