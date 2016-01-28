@@ -3,10 +3,20 @@ layout: homework
 title: "Assignment #1"
 ---
 
-# Assignment #1 - Due TBD
+# Assignment #1 - Due February 3rd
 
 ## Part 1 - Readings
 
+From {{ site.book1 }}:
+
+* Ch 1 Python Overview
+* Ch 2 &pi;thon
 
 ## Part 2 
+
+Create this game.
+
+## Part 3 
+
+
 

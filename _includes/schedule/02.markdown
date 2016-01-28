@@ -1,16 +1,19 @@
 	<td markdown="block">
 Slides and notes to be posted after class
 
-* Functions
-* Modules - math, random and turtle
-* Creating Modules, Installing Modules
-* matplotlib Demo
+* [Functions](slides/02/functions.html)
+* [format Method](slides/02/format-method.html)
+* [Modules](slides/02/modules.html)
+* [turtle](slides/02/turtle.html)
+    * [collision detection example](resources/code/intersects.py)
+    * [keyboard input example](resources/code/keys.py)
 </td>
 	<td markdown="block">
 </td>
 	<td markdown="block">
-* Assignment #1 to be posted
+* Assignment #1 to be posted Thursday evening
     * game
     * matplotlib monte carlo appoximation
+* First quiz postponed until next Monday
 
 </td>
