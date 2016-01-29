@@ -22,7 +22,12 @@ These readings provide background information for Parts 2 and 3.
 
 ## Part 2 - Falling Blocks Game 
 
-#### Create a Game Where a Player Dodges Falling Blocks
+#### Setup
+
+1. create a new Python file called <code>blocks_game.py</code>
+2. (you can use an existing project or create a new one)
+
+#### Implement a Game Where a Player Dodges Falling Blocks
 
 Implement the following game by using information from the readings in {{ site.book1 }} as well as the resources listed below:
 
@@ -49,8 +54,10 @@ The player is represented by a square (dimensions and colors of your choosing)..
 The following examples demonstrate the player control features described above...
 
 * Example of pressing the left and right keys
+    <br>
     ![Pressing the left and right keys](../resources/img/hw01_game_key_sm.gif)
 * Example of bouncing off the edge of the window
+    <br>
     ![Bouncing off the edge of the window](../resources/img/hw01_game_bounce_sm.gif)
 
 If the falling block (or blocks) touches the player, the game should end
@@ -60,7 +67,7 @@ If the falling block (or blocks) touches the player, the game should end
     * (it's ok if the collision detection between player and block is slightly off) 
 * if the game is over, stop all animation
 * and change the background color
-
+    <br>
     ![Game ends](../resources/img/hw01_game_over_sm.gif)
 
 
@@ -79,4 +86,9 @@ Example of score, game over text, and more than one falling block.
 
 ## Part 3 
 
-TBD (Monte Carlo method for approximating pi, 2nd exercise)
+1. Read section 2.6 in {{ site.book1 }} (you can skip the sections on conditionals - 2.6.1 to 2.6.3)
+2. [Download <code>plot_monte.py</code>](../resources/code/plot_monte.py) and place into your project folder
+3. Read the file's instructions... 
+4. ...and finish the partial implementation of the program by filling in the blank portions underneath the numbered comments
+5. (if you're having trouble with your project folder, you can also create a new Python file and copy the contents of <code>plot_monte.py</code> into it)
+
