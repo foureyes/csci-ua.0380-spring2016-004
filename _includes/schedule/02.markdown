@@ -11,7 +11,7 @@ Slides and notes to be posted after class
 	<td markdown="block">
 </td>
 	<td markdown="block">
-* [Assignment #1]() is due on Friday, February 4th
-* First quiz postponed until next Monday
+* [Assignment #1](assignments/hw01.html) is due on Thursday, February 4th
+* The first quiz is postponed; will be posted next week instead
 
 </td>
