@@ -11,9 +11,7 @@ Slides and notes to be posted after class
 	<td markdown="block">
 </td>
 	<td markdown="block">
-* Assignment #1 to be posted Thursday evening
-    * game
-    * matplotlib monte carlo appoximation
+* [Assignment #1]() is due on Friday, February 4th
 * First quiz postponed until next Monday
 
 </td>
