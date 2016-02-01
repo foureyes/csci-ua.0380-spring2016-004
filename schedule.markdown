@@ -38,19 +38,16 @@ Programming Topics
 
 Programming Topics
 
-* Exceptions
 * Functions
 * turtle module
 * Modules
 * math module
 * random module
-* matplotlib
 
 Application
 
-* Animation (maybe)
-* Calculating Pi
-* Monte Carlo Approximation
+* Animation 
+* Calculating Pi and  Monte Carlo Approximation (homework)
 </td>
 {% include schedule/02.markdown %}
 <td></td><td></td><td></td>
@@ -63,6 +60,8 @@ Application
 
 Programming Topics
 
+* Exceptions
+* Creating Modules / matplotlib
 * Python Collection Types
 * Strings
 * Lists
@@ -72,13 +71,11 @@ Programming Topics
 
 Application
 
+* Discuss Homework
 * Simple Cryptographic Algorithms
 * Statistics / Numerical Analysis
 </td>
-{% comment %}
 {% include schedule/03.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -89,6 +86,7 @@ Application
 Programming Topics
 
 * Collection Types Continued
+* In-Class Exercise, HOF vs Comprehensions
 </td>
 {% comment %}
 {% include schedule/04.markdown %}
