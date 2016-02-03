@@ -10,7 +10,7 @@ Today, in-class...
 
 Due Wed, Feb 10th
 
-* Assignment #02 to be posted 
+* Assignment #02 to be posted Thursday Evening
 
 {% comment %}
 * Submit [Assignment #03](assignments/hw03.html)

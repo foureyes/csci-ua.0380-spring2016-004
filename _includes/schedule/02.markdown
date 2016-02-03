@@ -9,7 +9,10 @@
 	<td markdown="block">
 </td>
 	<td markdown="block">
-* [Assignment #1](assignments/hw01.html) is due on Thursday, February 4th
+
+Due Thursday, Feb 4th
+
+* [Assignment #1](assignments/hw01.html) 
 * The first quiz is postponed; will be posted next week instead
 
 </td>
