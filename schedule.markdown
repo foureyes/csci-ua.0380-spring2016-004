@@ -50,7 +50,6 @@ Application
 * Calculating Pi and  Monte Carlo Approximation (homework)
 </td>
 {% include schedule/02.markdown %}
-<td></td><td></td><td></td>
  </tr>
 
 

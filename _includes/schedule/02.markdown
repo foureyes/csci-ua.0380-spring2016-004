@@ -1,6 +1,4 @@
 	<td markdown="block">
-Slides and notes to be posted after class
-
 * [Functions](slides/02/functions.html)
 * [format Method](slides/02/format-method.html)
 * [Modules](slides/02/modules.html)
