@@ -47,7 +47,6 @@ Programming Topics
 Application
 
 * Animation 
-* Calculating Pi and  Monte Carlo Approximation (homework)
 </td>
 {% include schedule/02.markdown %}
  </tr>
@@ -61,18 +60,12 @@ Programming Topics
 
 * Exceptions
 * Creating Modules / matplotlib
-* Python Collection Types
-* Strings
-* Lists
-* Tuples
-* Dictionaries
-* Higher Order Functions
 
 Application
 
 * Discuss Homework
-* Simple Cryptographic Algorithms
-* Statistics / Numerical Analysis
+* Calculating Pi 
+* Monte Carlo Approximation (homework)
 </td>
 {% include schedule/03.markdown %}
  </tr>
@@ -84,13 +77,19 @@ Application
 
 Programming Topics
 
-* Collection Types Continued
-* In-Class Exercise, HOF vs Comprehensions
+* Python Collection Types
+* Strings
+* Lists
+* Tuples
+* Dictionaries
+* Higher Order Functions
+
+Application
+
+* Simple Cryptographic Algorithms
+* Statistics / Numerical Analysis
 </td>
-{% comment %}
 {% include schedule/04.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
