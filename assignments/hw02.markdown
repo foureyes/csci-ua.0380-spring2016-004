@@ -138,7 +138,7 @@ docstrings in <code>upc.py</code>:
 
 #### Setup
 
-* [Download upc.py](../assignments/hw02/barcode_maker.py)
+* [Download barcode_maker.py](../assignments/hw02/barcode_maker.py)
 
 #### Create a Program That Generates a UPC-A Barcode
 
