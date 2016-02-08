@@ -8,10 +8,10 @@ Today, in-class...
 
 * [Transposition cipher in-class programming assignment!](https://docs.google.com/a/nyu.edu/forms/d/12gwd_MzazDz3Cx6KPNOQEEhftmXNpZb32y23cjOMnYw/viewform)
 
-Due Wed, Feb 10th
+Due Friday, Feb 12th
 
-* Assignment #02 to be posted Thursday Evening
-
+* Assignment #02 to be posted Thursday Evening 
+* (Since the assignment was posted later than last weeks', I'll extend the open date for NYU Classes upon request)
 {% comment %}
 * Submit [Assignment #03](assignments/hw03.html)
 {% endcomment %}
