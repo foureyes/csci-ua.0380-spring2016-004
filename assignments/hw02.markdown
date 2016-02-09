@@ -15,7 +15,7 @@ img {
 
 ## Part 1 - Readings
 
-Check out Chapter 2, Codes and Other Secrets.  This chapter provides background information for Parts 2, 3, 4 and 5.
+Check out __Chapter 3, Codes and Other Secrets__ in {{ site.book1 }}.  This chapter provides background information for Parts 2, 3, 4 and 5.
 
 ## Part 2 - Spy Tools
 
@@ -41,7 +41,6 @@ to the instructions in the file and the docstrings for each function:
 2. <code>gen_key(password)</code>
 3. <code>sub_decrypt(password, ciphertext)</code>
 4. <code>vig_decrypt(key, message)</code>
-
 
 ## Part 3 - Such Secret
 
@@ -101,9 +100,9 @@ Hi... would you like to (e)ncrypt or (d)ecrypt a message.. or (q)uit?
 > d
 What cipher would you like to use: (v)igenère or (s)ubstitution)
 > v
-Enter a key to encrypt your message with
+Enter a key to decrypt the ciphertext
 > DAVINCI
-Enter a message to encrypt
+Enter the cyphertext to decrypt
 > whz rcooe pnu oailrf
 the eagle has landed
 </code></pre>

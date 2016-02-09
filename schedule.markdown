@@ -79,15 +79,10 @@ Programming Topics
 
 * Python Collection Types
 * Strings
-* Lists
-* Tuples
-* Dictionaries
-* Higher Order Functions
 
 Application
 
 * Simple Cryptographic Algorithms
-* Statistics / Numerical Analysis
 </td>
 {% include schedule/04.markdown %}
  </tr>
@@ -96,24 +91,16 @@ Application
 <!-- ------------ --><a name="05"></a>
 <tr><td>5</td><td><strong>Feb 8</strong><br>Mon</td>
 <td markdown="block">
-
 Programming Topics
 
-* Data
-* File I/O
-* Context Managers
-* Decorators
-* Retrieving Data from the Web
-* Data Formats - csv, json, html
+* Strings Continued
+* Lists
 
 Application
 
-* Using Files - Earthquake Statistics
-* Data from the Web - Stocks 
+* Simple Cryptographic Algorithms
 </td>
-{% comment %}
 {% include schedule/05.markdown %}
-{% endcomment %}
 <td></td><td></td><td></td>
  </tr>
 
@@ -124,7 +111,21 @@ Application
 
 Programming Topics
 
-* Data Continued
+* Lists / Higher Order Functions
+* Tuples
+* Dictionaries
+* Data
+* File I/O
+* Context Managers
+* Decorators
+* Retrieving Data from the Web
+* Data Formats - csv, json, html
+
+Application
+
+* Statistics / Numerical Analysis
+* Using Files - Earthquake Statistics
+* Data from the Web - Stocks 
 </td>
 {% comment %}
 {% include schedule/06.markdown %}

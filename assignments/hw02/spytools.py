@@ -12,7 +12,7 @@ the following functions:
 
 """
 # 1. Implement gen_consecutive_chars()
-def gen_consecutive_chars(start=97, end=123):
+def gen_consecutive_chars(start=97, end=122):
     """Creates a string composed of all characters starting at unicode
     code point, start, up to and including unicode code point, end. The
     default values return lowercase 'a' through (and including) 'z'

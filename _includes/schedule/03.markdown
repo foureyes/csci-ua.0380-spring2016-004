@@ -64,6 +64,9 @@
 
 </td>
 	<td markdown="block">
+From {{ site.book1 }}
+
+* Ch 2 - &pi;thon
 </td>
 	<td markdown="block">
 <!--

@@ -1,0 +1,26 @@
+	<td markdown="block">
+* [About Class #05 / Homework Discussion](slides/05/meta.html)
+* [Strings and Mutability](slides/05/strings-mutability.html)
+* [Substitution Cipher, Vigenère Cipher](slides/05/simple-cipher.html)
+* [Lists - Methods, Constructor, Comprehensions](slides/05/lists-methods-constructor-comprehension.html)
+
+{% comment %}
+
+<section markdown="block">
+## dictionaries
+
+</section>
+{% endcomment %}
+
+</td>
+	<td markdown="block">
+From {{ site.book1 }}
+
+* Start Ch 4 - A Nest of Snakes
+</td>
+	<td markdown="block">
+
+{% comment %}
+* Submit [Assignment #03](assignments/hw03.html)
+{% endcomment %}
+</td>

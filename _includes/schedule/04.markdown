@@ -1,7 +1,13 @@
 	<td markdown="block">
+* [Exception Handling](slides/04/exceptions.html)
+* [Strings](slides/04/strings.html)
+* (see section 3.4) [Transposition / Rail Cipher](slides/04/rail-cipher.html)
 
 </td>
 	<td markdown="block">
+From {{ site.book1 }}
+
+* Ch 3 - Codes and Other Secrets
 </td>
 	<td markdown="block">
 Today, in-class...
