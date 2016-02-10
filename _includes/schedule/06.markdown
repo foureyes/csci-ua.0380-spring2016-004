@@ -8,6 +8,7 @@
 Today, in-class…
 
 * [Lists and Dictionaries in-class programming assignment](https://docs.google.com/a/nyu.edu/forms/d/17TW2NwN2guGO8vf7zSj4Lwp_kRIiOcFWouuXnhPN158/viewform)
+
 <!--
 * [](assignments/.html)
 -->
