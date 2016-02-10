@@ -127,10 +127,7 @@ Application
 * Using Files - Earthquake Statistics
 * Data from the Web - Stocks 
 </td>
-{% comment %}
 {% include schedule/06.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 <!-- ------------ -->

@@ -301,27 +301,5 @@ List comprehension version:
 </section>
 
 {% comment %}
-<section markdown="block">
-## lists
-
-* methods
-    * split
-    * mutate, don't mutate
-* list(range)
-* list('asdf') # 'asdf'.split('') or 'asdf'.split() doesn't work here
-* enumerate
-* working with lists in place
-* every element in a list
-* list comprehensions
-* map
-* (no more reduce)
-* filter
-* lambda?
-* max
-* min
-* sum
-
-
-</section>
 {% endcomment %}
 
