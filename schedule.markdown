@@ -114,18 +114,9 @@ Programming Topics
 * Lists / Higher Order Functions
 * Tuples
 * Dictionaries
-* Data
-* File I/O
-* Context Managers
-* Decorators
-* Retrieving Data from the Web
-* Data Formats - csv, json, html
 
 Application
 
-* Statistics / Numerical Analysis
-* Using Files - Earthquake Statistics
-* Data from the Web - Stocks 
 </td>
 {% include schedule/06.markdown %}
  </tr>
@@ -145,18 +136,24 @@ President's Day, No Class Scheduled
 
 Programming Topics
 
+* Data
+* File I/O
+* Context Managers
+* Decorators
+* Retrieving Data from the Web
+* Data Formats - csv, json, html
 * Advanced Lists
 * Advanced Dictionaries
 * Regular Expressions
 
 Application
 
+* Statistics / Numerical Analysis
+* Using Files - Earthquake Statistics
+* Data from the Web - Stocks 
 * Cryptanalysis
 </td>
-{% comment %}
 {% include schedule/07.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

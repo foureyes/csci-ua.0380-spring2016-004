@@ -1,5 +1,6 @@
 	<td markdown="block">
-
+* [Lists - references, comprehensions, built-in functions](slides/06/lists-references-map.html)
+* [Dictionaries](slides/06/dictionaries.html)
 
 </td>
 	<td markdown="block">

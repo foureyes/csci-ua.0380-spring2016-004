@@ -1,3 +1,27 @@
+# creating lists
+
+"""
+numbers = [10, 12, 5, 18, 3]
+for i, number in enumerate(numbers):
+  numbers[i] = number + 10
+print(numbers)
+"""
+"""
+numbers = [10, 12, 5, 18, 3]
+new_numbers = []
+for i in range(len(numbers) - 1, -1, -1):
+    new_numbers.append(numbers[i])
+print(new_numbers)
+print(numbers)
+"""
+
+numbers = [10, 12, 5, 18, 3]
+print('before', numbers)
+for i in range(len(numbers) // 2):
+    j = len(numbers) - (i + 1)
+    numbers[i], numbers[j] = numbers[j], numbers[i]
+print('after', numbers)
+
 """
 ## making lists review
 
@@ -21,6 +45,7 @@
     * counting
     * range
     * enumerate (tuples)
+#enumerate --> [(index1, value1), ... (indexn, valuen)]
 
 ## changing number of elements in list while iterating over it
 
