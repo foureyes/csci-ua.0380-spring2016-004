@@ -9,7 +9,7 @@ img {
 }
 </style>
 
-# Assignment #1 - Due Friday, February 12th
+# Assignment #2 - Due Friday, February 12th
 
 (Since the assignment was posted later than last weeks', it's due a day later... and I can extend the open date for NYU Classes further upon request)
 

@@ -4,6 +4,10 @@
 
 </td>
 	<td markdown="block">
+Due Thursday, Feb 26th 
+
+* [Assignment #03 posted](assignments/hw03.html)
+
 Survey results csv (with names removed, of course!)
 
 * [survey-results.csv](resources/txt/survey-results.csv)

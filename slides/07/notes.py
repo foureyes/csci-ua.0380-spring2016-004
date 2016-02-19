@@ -1,4 +1,7 @@
 """
+what does pop return tuple or value?
+multiple charts
+
 ## file and open
 * file object
 * open
@@ -44,8 +47,47 @@ json.loads
 'utf-8'
 >>> r.text
 u'{"type":"User"...'
-        >>> r.json()
+>>> r.json()
 
 
 
 """
+
+word = input("gimme word>\n")
+# keys are letters
+# values are going to be counts
+d = {}
+for ch in word:
+    #value if condition else other_value
+    d[ch] = 1 if ch not in d else d[ch] + 1
+    d[ch] = d.get(ch, 0) + 1
+    # d.get(k, [d])
+    """
+    try:
+        d[ch] += 1
+    except KeyError:
+        d[ch] = 1
+    """
+
+for k in sorted(d, key=d.get):
+    print(k, d[k])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
