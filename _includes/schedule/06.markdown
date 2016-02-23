@@ -4,6 +4,9 @@
 
 </td>
 	<td markdown="block">
+From {{ site.book1 }}
+
+* Ch 4 - A Nest of Snakes
 </td>
 	<td markdown="block">
 Today, in-class…

@@ -139,19 +139,19 @@ Programming Topics
 * Data
 * File I/O
 * Context Managers
+{% comment %}
 * Decorators
-* Retrieving Data from the Web
-* Data Formats - csv, json, html
 * Advanced Lists
 * Advanced Dictionaries
 * Regular Expressions
+{% endcomment %}
 
 Application
 
-* Statistics / Numerical Analysis
-* Using Files - Earthquake Statistics
-* Data from the Web - Stocks 
+* Analyzing Survey Data
+{% comment %}
 * Cryptanalysis
+{% endcomment %}
 </td>
 {% include schedule/07.markdown %}
  </tr>
@@ -163,19 +163,22 @@ Application
 
 Programming Topics
 
-* Image Processing
+* File I/O Continued
+* Retrieving Data from the Web
+* Data Formats - csv, json, html
+* Start Image Processing
+* PIL 
+{% comment %}
 * cImage
-* PIL (maybe)
 * openCV (maybe)
+{% endcomment %}
 
 Application
 
-* Image Processing
+* Working with csvs, json and html 
+* Basic Image Processing
 </td>
-{% comment %}
 {% include schedule/08.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

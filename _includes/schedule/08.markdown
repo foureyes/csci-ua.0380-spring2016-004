@@ -1,14 +1,11 @@
 	<td markdown="block">
-* [About class #8](slides/08/meta.html)
-* [Methods](slides/08/methods.html)
+* [Paths, More File I/O, Data Formats and Sources](slides/08/data-files-advanced.html)
 
-{% comment %}
-* [Processing](slides/08/processing.html)
-{% endcomment %}
 </td>
 	<td markdown="block">
-* __Chapter 5__ - Loops (Nested Loops)
-* __Chapter 6__ - Methods
+From {{ site.book1 }}
+
+* Ch 5 - Earthquakes ...
 <!--* [Debugging](lynda.com?)-->
 </td>
 	<td markdown="block">

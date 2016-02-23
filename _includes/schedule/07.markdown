@@ -1,7 +1,10 @@
 	<td markdown="block">
+* [File I/O](slides/07/files.html)
 </td>
 	<td markdown="block">
+From {{ site.book1 }}
 
+* Start Ch 5 - Earthquakes ...
 </td>
 	<td markdown="block">
 Due Thursday, Feb 26th 
