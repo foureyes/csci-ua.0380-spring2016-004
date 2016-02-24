@@ -7,7 +7,7 @@ From {{ site.book1 }}
 * Start Ch 5 - Earthquakes ...
 </td>
 	<td markdown="block">
-Due Thursday, Feb 26th 
+Due Thursday, Feb 25th 
 
 * [Assignment #03 posted](assignments/hw03.html)
 
