@@ -17,6 +17,9 @@ From {{ site.book1 }}
 
 </td>
 	<td markdown="block">
-    * Download [this image of a wallaby](resources/img/wallaby.jpg) to your project folder.
-    * In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
+
+Links / Downloads
+
+* Download [this image of a wallaby](resources/img/wallaby.jpg) to your project folder.
+* In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
 </td>
