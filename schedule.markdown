@@ -191,10 +191,7 @@ Programming Topics
 * Image Processing Continued
 
 </td>
-{% comment %}
 {% include schedule/09.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

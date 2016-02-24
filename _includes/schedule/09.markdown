@@ -1,19 +1,22 @@
 	<td markdown="block">
-* [Meta](slides/09/meta.html)
-* [Overloading Methods, Type Conversion Revisited, Scope](slides/09/overloading-methods-scope.html)
-* [Arrays](slides/09/arrays.html)
-* [Nested Loops (eventually, right?)](slides/09/nested-loops.html)
-
-{% comment %}
-* [Debugging](slides/09/debugging.html)
-{% endcomment %}
+* [Image Processing](slides/09/image-processing.html)
 <a name="midterm1"></a>
 </td>
 	<td markdown="block">
-* __Chapter 7__ - Single-Dimensional Arrays
+From {{ site.book1 }}
+
+* Ch 6 - Pycture Perfect... 
+* Ignore the cImage parts
+* PIL / Pillow documentation
+    * [Overview](https://pillow.readthedocs.org/en/3.1.x/handbook/overview.html)
+    * [Concepts](http://pillow.readthedocs.org/en/3.1.x/handbook/concepts.html)
+    * [Tutorial](http://pillow.readthedocs.org/en/3.1.x/handbook/tutorial.html)
+    * [Image Module](https://pillow.readthedocs.org/en/3.1.x/reference/Image.html#PIL.Image.Image)
+    * [Image Object](https://pillow.readthedocs.org/en/3.1.x/reference/Image.html#PIL.Image.Image)
+    * [PixelAccess Object](https://pillow.readthedocs.org/en/3.1.x/reference/PixelAccess.html)
 
 </td>
 	<td markdown="block">
-* Read Chapter 7 
-* Submit [(Mini) Assignment #05](assignments/hw05.html) 
+    * Download [this image of a wallaby](resources/img/wallaby.jpg) to your project folder.
+    * In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
 </td>
