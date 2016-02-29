@@ -201,17 +201,20 @@ Programming Topics
 
 Programming Topics
 
-* Classes and Objects
+* Image Processing Continued
+* Classes and Objects Introduced
 
 Application
 
+* Scaling
+* Putting Together Images
+
+{% comment %}
 * Astronomy Simulation
 * "Life" Simulation
-</td>
-{% comment %}
-{% include schedule/10.markdown %}
 {% endcomment %}
-<td></td><td></td><td></td>
+</td>
+{% include schedule/10.markdown %}
  </tr>
 
 

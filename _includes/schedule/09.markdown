@@ -21,5 +21,6 @@ From {{ site.book1 }}
 Links / Downloads
 
 * Download [this image of a wallaby](resources/img/wallaby.jpg) to your project folder.
-* In-class programming activity [image processing](https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform)
+* <strike><a href="https://docs.google.com/a/nyu.edu/forms/d/1zkCnVU_26wtBy6ZCMynyX0u2xwHT8fySuG8OzutAZZM/viewform">In-class programming activity</a></strike>
+
 </td>
