@@ -226,10 +226,7 @@ Programming Topics
 
 * Classes and Objects Continued
 </td>
-{% comment %}
 {% include schedule/11.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

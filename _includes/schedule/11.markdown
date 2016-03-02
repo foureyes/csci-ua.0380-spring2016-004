@@ -1,8 +1,7 @@
 	<td markdown="block">
-<!-- 
-* [](slides//.html)
-* [](slides//.html)
--->
+* Homework, midterm reminder
+* [PIL, IO, Requests, DOM/HTML/CSS, BS4](slides/11/pil-bs4.html)
+* [Classes and Objects](slides/11/classes-objects.html)
 </td>
 	<td markdown="block">
 </td>
