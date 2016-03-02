@@ -78,12 +78,10 @@ Here's what your commandline image processing app should do:
     1. Ask the user for a path to an image. 
     2. Prompt the user to select a series of image processing algorithms (we'll call 'em _filters_) to apply
         * The filters are represented by letters:
-            <pre><code data-trim contenteditable>
-(p)ixelate
+            <pre><code data-trim contenteditable>(p)ixelate
 (k)aleidoscope
 (g)ray-day
-(r)ighty
-            </code></pre>
+(r)ighty</code></pre>
         * So... the user input should just be a series of letters: <code>kp</code> (kaleidoscope, then pixelate)
         * If any of the letters don't correspond to a filter, ignore that individual letter
         * If no user input corresponds to a filter, just display the original image
