@@ -25,6 +25,7 @@ __Let's go through a quick review of doing the following__ &rarr;
 * {:.fragment} setting an image's pixels
 
 [Check out the previous class slides on image processing for full details!](../09/image-processing.html)
+{:.fragment}
 </section>
 
 <section markdown="block">
@@ -286,7 +287,7 @@ __Something looked a little bit off with our scaling methods. What happened to t
 
 * {:.fragment} the resulting scaling is a bit blocky and pixelated
 * {:.fragment} that's great if you want that effect.... but...
-* {:.fragment} maybe we can find a better way to fill in the missing pixels rather than just repeating an image
+* {:.fragment} maybe we can find a better way to fill in the missing pixels rather than just repeating a pixel
 
 </section>
 <section markdown="block">
@@ -423,7 +424,7 @@ def scale(orig_img, target_w, target_h):
 
 __Figure out the beginning of the source 2x2 sample__ &rarr;
 <pre><code data-trim contenteditable>
-            orig_x, orig_y = min(x // factor_w, orig_w - 2), \
+&nbsp;           orig_x, orig_y = min(x // factor_w, orig_w - 2), \
                     min(y // factor_h, orig_h - 2)
 </code></pre>
 
@@ -431,12 +432,13 @@ __Figure out the beginning of the source 2x2 sample__ &rarr;
 __The upper bit's color...__ &rarr;
 
 <pre><code data-trim contenteditable>
-            # upper
+&nbsp;           # upper
             ul = orig_pixels[orig_x, orig_y]            
             ur = orig_pixels[orig_x + 1, orig_y]
             ul_x = orig_x * factor_w
             ur_x = (orig_x + 1) * factor_w
-            c_top = linear_interpolation(ul, ur, ul_x, ur_x, x)
+            c_top = linear_interpolation(
+                    ul, ur, ul_x, ur_x, x)
 </code></pre>
 
             
@@ -447,26 +449,28 @@ __The upper bit's color...__ &rarr;
 
 __The bottom part's color__ &rarr;
 
-<pre><code data-trim contenteditable>
-            # bottom
+<pre><code data-trim contenteditable>            
+&nbsp;           # bottom
             bl = orig_pixels[orig_x, orig_y + 1]            
             br = orig_pixels[orig_x + 1, orig_y + 1]
             bl_x = orig_x * factor_w
             br_x = (orig_x + 1) * factor_w
-            c_bottom = linear_interpolation(bl, br, bl_x, br_x, x)
+            c_bottom = linear_interpolation(\
+                    bl, br, bl_x, br_x, x)
 </code></pre>
 
 __Now handle verticle...__ &rarr;
 
 <pre><code data-trim contenteditable>
-            c = linear_interpolation(c_top, c_bottom, orig_y * factor_h, \
+&nbsp;           c = linear_interpolation(c_top, c_bottom, \
+                    orig_y * factor_h, \
                     (orig_y + 1) * factor_h, y)
 </code></pre>
 
 __Assign and return__ &rarr;
 
 <pre><code data-trim contenteditable>
-            pixels[x, y] = c
+&nbsp;           pixels[x, y] = c
     return img
 </code></pre>
 </section>

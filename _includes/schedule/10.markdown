@@ -9,6 +9,11 @@ From {{ site.book1 }}
 
 </td>
 	<td markdown="block">
+
+Due Sunday, March 6th
+
+* [Assignment #04 posted](assignments/hw04.html)
+
 Links / Downloads
 
 * Download the following images to your project folder (right-click, save as):
