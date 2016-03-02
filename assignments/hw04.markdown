@@ -73,17 +73,42 @@ __There is extra credit at the end of the assignment.__
 Here's what your commandline image processing app should do:
 
 1. Display a banner (obviously)
-2. Continually ask the user if they want to filter an image or quit
+2. Continually ask the user if they want to (f)ilter an image or (q)uit
 3. If they choose (f)ilter... 
     1. Ask the user for a path to an image. 
     2. Prompt the user to select a series of image processing algorithms (we'll call 'em _filters_) to apply
-    3. Apply those filters to the image
+        * The filters are represented by letters:
+            <pre><code data-trim contenteditable>
+(p)ixelate
+(k)aleidoscope
+(g)ray-day
+(r)ighty
+            </code></pre>
+        * So... the user input should just be a series of letters: <code>kp</code> (kaleidoscope, then pixelate)
+        * If any of the letters don't correspond to a filter, ignore that individual letter
+        * If no user input corresponds to a filter, just display the original image
+    3. Apply the series of user specified filters to the image
     4. Display the image
 4. Go back to step 2
 
 Here's an example of how the interface should work:
 
 ![commandline interaction](../resources/img/hw04_commandline.gif)
+
+And the _actual text_:
+
+<pre><code data-trim contenteditable>(f)ilter an image or (q)uit
+> f
+What's the full path to your image?
+> /tmp/raccoon.jpg
+Write a series of filters to apply:
+(p)ixelate
+(k)aleidoscope
+(g)ray-day
+(r)ighty
+Example: kpkr will run keleidoscope, pixelate, kaleidoscope and gray-day in sequence
+>pk
+</code></pre>
 
 #### Filters
 
