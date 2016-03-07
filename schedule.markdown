@@ -235,10 +235,7 @@ Programming Topics
 <td markdown="block">
 * Review
 </td>
-{% comment %}
 {% include schedule/12.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

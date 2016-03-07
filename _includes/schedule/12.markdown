@@ -1,31 +1,22 @@
-	<td markdown="block">
-* [About Class #12](slides/12/meta.html)
-* [Commenting Code / Java Documentation](slides/12/comments.html)
-* [Arrays as References / Processing Arrays in Place](slides/12/arrays-in-place.html)
-* [Multi-Dimensional Arrays](slides/12/nested-arrays.html)
+	<td colspan="3" markdown="block">
 
-{%comment%} 
-* [Setting Up Processing](slides/12/nested-arrays.html)
-{%endcomment%}
+Materials / Readings
 
-</td>
-	<td markdown="block">
-* __Chapter 8__ - Multidimensional Arrays
-</td>
-	<td markdown="block">
+* chapters 1 - 6, 10 
+* slides from classes 1 through 11
 
-Assignments
+Notes
 
-* Read Chapter #8 on Multi-Dimensional Arrays
-* [Homework #6](assignments/hw06.html)
+* if material is in book only...
+* i'll give you adequate context / info in exam
+* there will be a reference with methods, objs for turtle, PIL, file io, etc.
+* ... just names and parameters though, not full description
 
-Code Samples
+Not on Exam or Extra Credit Only
 
-(of varying quality!)
+* beautiful soup and dom manipulation
+* built-in PIL functions for resizing, thumbnailing, etc
+* lambda expressions
 
-* [Shift](../resources/code/class12/Shifty.java)
-* [Swap](../resources/code/class12/Swappy.java)
-* [Selection Sort](../resources/code/class12/SelectionSort.java)
-* [Binary Search](../resources/code/class12/BinarySearch.java)
 
 </td>

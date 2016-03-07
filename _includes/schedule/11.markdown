@@ -13,4 +13,5 @@ __Midterm Practice__ (these questions don't indicate the number of _actual_ ques
 
 
 * [Sample questions for midterm](resources/handouts/midterm/midterm_practice.pdf)
+* [Sample questions solutions](resources/handouts/midterm/midterm_practice_solutions.pdf)
 </td>
