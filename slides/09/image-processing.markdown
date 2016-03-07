@@ -572,11 +572,21 @@ pixel_map(new_img, lambda t: (sum(t) // 3, ) * 3)
 
 So... for bw, we lost something along the way. __What was it?__ &rarr;
 
-We fixed the threshold!
+__The threshold was hardcoded!__
 {:.fragment}
 
-We can use <code>partial</code> from the <code>functools</code> module to "bind" an argument.
-{:.fragment}
+* {:.fragment} We hardcoded it because the function that pixel_map takes as its second parameter is __always__ called with only one argument
+* {:.fragment} We can use <code>partial</code> from the <code>functools</code> module to fix additional arguments by "binding" a value to those arguments
+* {:.fragment} changing the number of arguments that a function can take is called changing its __arity__.
+
+</section>
+
+
+
+<section markdown="block">
+## Using Partial
+
+__Use <code>partial</code> to bind the first parameter of to_bw_pixel to a particular threshold value.__ &rarr;
 
 <pre><code data-trim contenteditable>
 from functools import partial
@@ -590,8 +600,14 @@ def to_bw_pixel(thresh, t):
 
 bound_to_bw = partial(to_bw_pixel, 255 // 2)
 </code></pre>
-{:.fragment}
+
+<code>partial</code> returns a new function. That function is to_bw_pixel... with thresh automatically set to 255 // 2. Now you'll only need one argument for <code>bound_to_bw</code>, so you can call this:
+
+<pre><code data-trim contenteditable>
+pixel_map(new_img, lambda t: bound_to_bw(t))
+</code></pre>
 </section>
+
 {% comment %}
 * PIL API
 * reading images

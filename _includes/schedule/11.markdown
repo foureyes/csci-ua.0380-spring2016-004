@@ -6,7 +6,7 @@
 	<td markdown="block">
 </td>
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+Sample Questions
+
+* [Sample questions for midterm](resources/handouts/midterm/midterm_practice.pdf.html)
 </td>
