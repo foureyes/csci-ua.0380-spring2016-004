@@ -4,6 +4,9 @@
 * [Classes and Objects](slides/11/classes-objects.html)
 </td>
 	<td markdown="block">
+
+* Ch 10 - Astronomy (Classes and Objects)
+
 </td>
 	<td markdown="block">
 __Midterm Practice__ (these questions don't indicate the number of _actual_ questions on the exam; the exam will likely have a couple more questions)
