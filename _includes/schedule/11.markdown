@@ -6,7 +6,8 @@
 	<td markdown="block">
 </td>
 	<td markdown="block">
-Sample Questions
+__Midterm Practice__ (these questions don't indicate the number of _actual_ questions on the exam; the exam will likely have a couple more questions)
 
-* [Sample questions for midterm](resources/handouts/midterm/midterm_practice.pdf.html)
+
+* [Sample questions for midterm](resources/handouts/midterm/midterm_practice.pdf)
 </td>
