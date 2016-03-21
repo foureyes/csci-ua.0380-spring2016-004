@@ -2,6 +2,9 @@
 layout: default
 nav-state: schedule
 ---
+<script>
+....
+</script>
 <table class="table table-striped table-hover">
 <thead>
 <tr>
@@ -271,17 +274,11 @@ __Spring Break, No Class Scheduled__
 <tr><td>14</td><td><strong>Mar 21</strong><br>Mon</td>
 <td markdown="block">
 
-Programming Topics
+* Midterms
+* Classes Review
 
-* Networking / Web Server
-
-Application
-
-* Simple Servers and Clients
 </td>
-{% comment %}
 {% include schedule/14.markdown %}
-{% endcomment %}
 <td></td><td></td><td></td>
  </tr>
 
@@ -293,9 +290,13 @@ Application
 Programming Topics
 
 * Web Server
+* Networking / Web Server
+
+
 
 Application
 
+* Simple Servers and Clients
 * Web Application
 </td>
 {% comment %}
