@@ -275,16 +275,24 @@ __Spring Break, No Class Scheduled__
 <td markdown="block">
 
 * Midterms
-* Classes Review
+* Review of Creating Classes
 
 </td>
 {% include schedule/14.markdown %}
-<td></td><td></td><td></td>
  </tr>
 
 
 <!-- ------------ --><a name="15"></a>
 <tr><td>15</td><td><strong>Mar 23</strong><br>Wed</td>
+<td markdown="block">
+
+</td>
+{% include schedule/15.markdown %}
+ </tr>
+
+
+<!-- ------------ --><a name="16"></a>
+<tr><td>16</td><td><strong>Mar 28</strong><br>Mon</td>
 <td markdown="block">
 
 Programming Topics
@@ -298,27 +306,6 @@ Application
 
 * Simple Servers and Clients
 * Web Application
-</td>
-{% comment %}
-{% include schedule/15.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
- </tr>
-
-
-<!-- ------------ --><a name="16"></a>
-<tr><td>16</td><td><strong>Mar 28</strong><br>Mon</td>
-<td markdown="block">
-
-Programming Topics
-
-* Inheritance
-* Writing Tests
-* Duck Typing
-
-Application
-
-* Graphics Module
 
 </td>
 {% comment %}
@@ -334,7 +321,13 @@ Application
 
 Programming Topics
 
-* Inheritance Continued
+* Inheritance
+* Writing Tests
+* Duck Typing
+
+Application
+
+* Graphics Module
 </td>
 {% comment %}
 {% include schedule/17.markdown %}
