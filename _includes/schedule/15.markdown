@@ -1,6 +1,7 @@
 	<td markdown="block">
 * [Decorators](slides/15/decorators.html)
 * [Classes Examples, Static Methods, Magic Methods](slides/15/classes-example.html)
+* [Examples in github repository](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class15)
 </td>
 	<td markdown="block">
 
