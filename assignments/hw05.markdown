@@ -79,7 +79,7 @@ returns: -2, <class 'int'>
 
 The <code>limit_one_call</code> decorator will ensure that a function decorated with it can be called only once for the lifetime of your program. Any subsequent calls to the decorated function will not execute the function (and consequently, no value, or <code>None</code>, will be returned rather than the actual result of calling the function).
 
-* __You will have to use the keyword, <code>nonlocal</code>, to implement this decorator.__ <code>nonlocal</code> is similar to <code>global</code>, but instead of affected global identifiers, it affects variables in a scope that encloses the current scope. [Please read this stack overflow article to on how to use <code>nonlocal</code>](http://stackoverflow.com/a/309000).
+* __You will have to use the keyword, <code>nonlocal</code>, to implement this decorator.__ <code>nonlocal</code> is similar to <code>global</code>, but instead of affected global identifiers, it affects variables in a scope that encloses the current scope. [Please read this article on how to use <code>nonlocal</code>](http://stackoverflow.com/questions/1261875/python-nonlocal-statement).
 * An example of using the <code>limit_one_call</code> decorator is to replaced the built-in <code>print</code>function with a <code>limit_one_call</code>decorated version of it. This code:
     <pre><code data-trim contenteditable>limited_print = limit_one_call(print)
 limited_print('hello')
