@@ -19,5 +19,7 @@ Online Articles
 
 </td>
 	<td markdown="block">
+Due Friday, April 1st
+
 * [Assignment #05 posted](assignments/hw05.html)
 </td>
