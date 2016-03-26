@@ -209,9 +209,9 @@ Once you've created the two classes, read a <code>.csv</code> file that contains
 
 #### Setup
 
-1. Download [hw05/quizzical.py](quizzical.py) - contains <code>MultipleChoiceQuestion</code> and <code>Quiz</code>
-1. Download [hw05/python_quiz.py](python_quiz.py) - this uses the classes above to run an interactive quiz (should only be a few lines long!)
-2. Download [hw05/questions.csv](questions.csv) - source of questions for quiz
+1. Download [quizzical.py](hw05/quizzical.py) - contains <code>MultipleChoiceQuestion</code> and <code>Quiz</code>
+1. Download [python_quiz.py](hw05/python_quiz.py) - this uses the classes above to run an interactive quiz (should only be a few lines long!)
+2. Download [questions.csv](hw05/questions.csv) - source of questions for quiz
 
 #### Technical Requirements
 
@@ -386,7 +386,7 @@ Create an animation showing planets orbiting the sun.
 
 #### Setup
 
-1. Download [hw05/gravity.py](gravity.py)
+1. Download [gravity.py](hw05/gravity.py)
 
 #### Technical Requirements
 
