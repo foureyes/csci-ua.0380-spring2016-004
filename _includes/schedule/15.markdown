@@ -19,5 +19,5 @@ Online Articles
 
 </td>
 	<td markdown="block">
-Homework #5 - to be posted
+* [Assignment #05 posted](assignments/hw05.html)
 </td>

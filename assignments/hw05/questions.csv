@@ -1,0 +1,5 @@
+question,answer,choice_a,choice_b,choice_c,choice_d
+What method do you have to define to create a constructor for a class?,b,a method with the same name as the class,__init__,__constructor__,__class__
+"When an @function_name appears before a function definition, what is it called?",b,annotation,decorator,generator,function
+What method do you have to define so that you can specify what gets printed out when you pass an instance of your class to print?,d,__print__,__unicode__,toString,__str__
+What does the @staticmethod decorator allow?,c,allows a method to be called from the class only,allows a method to be called from an instance only,allows a method to be called from both an instance and the class,prevents a method from being called from both an instance and a class
