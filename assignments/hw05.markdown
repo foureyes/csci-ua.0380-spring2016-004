@@ -332,7 +332,7 @@ quiz.add_question(question)
         1. the question text
         2. the letter of the answer
         3. the remaining fields are the text of the four answer choices, a, b, c, and d
-    * see the [questions.csv](questions.csv)
+    * see the [questions.csv](hw05/questions.csv)
     * note that __it has a header__
     * also note that __some fields have commas as part of the value__!
     * __use the csv module to read in this file__, either as...
