@@ -308,10 +308,7 @@ Application
 * Web Application
 
 </td>
-{% comment %}
 {% include schedule/16.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

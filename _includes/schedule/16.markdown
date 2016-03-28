@@ -1,21 +1,10 @@
 	<td markdown="block">
-* [Objects and Classes](slides/16/oop.html)
+* [Updated Examples as We Work](https://github.com/jversoza/p4a-spring-16-examples/tree/master/)
 </td>
 	<td markdown="block">
-* __Chapter 9__ - Objects and Classes
-* [wallaby](resources/img/wallaby.jpg)
-* [apples](resources/img/apples-small.jpg)
+* [howto in python docs](https://docs.python.org/3/howto/sockets.html)
+* [python sockets from byu](http://ilab.cs.byu.edu/python/socketmodule.html)
+* [making a web server parts 1 - 3 from ruslan's blog](https://ruslanspivak.com/lsbaws-part1/)
 </td>
 	<td markdown="block">
-Assignments
-
-* Read Chapter #9 and #10 on Classes/Objects and Object Oriented Programming 
-* [Homework #8](assignments/hw08.html)
-
-Code Samples
-
-* [Circle](resources/code/class16/Circle.java)
-* [CircleTest (uses Circel class above)](resources/code/class16/CircleTest.java)
-* [Student](resources/code/class16/Student.java)
-* [StudentTest (uses Student class above](resources/code/class16/StudentTest.java)
 </td>
