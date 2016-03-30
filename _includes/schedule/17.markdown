@@ -1,7 +1,7 @@
 	<td markdown="block">
-Code examples and notes are in the [p4a-class16 folder of the github repository for this course](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class17)
+Code examples and notes are in the [class 17 folder of the github repository](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class17)
 
-* [annotated echo_server.py(https://github.com/jversoza/p4a-spring-16-examples/blob/master/p4a-class17/echo_server.py)
+* [annotated echo_server.py](https://github.com/jversoza/p4a-spring-16-examples/blob/master/p4a-class17/echo_server.py)
 * [annotated web_server.py](https://github.com/jversoza/p4a-spring-16-examples/blob/master/p4a-class17/web_server.py)
 
 From the readings:
