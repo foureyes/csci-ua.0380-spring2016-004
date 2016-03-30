@@ -318,18 +318,15 @@ Application
 
 Programming Topics
 
-* Inheritance
-* Writing Tests
-* Duck Typing
+* Web Server
+* Networking / Web Server
 
 Application
 
-* Graphics Module
+* Simple Servers and Clients
+* Web Application
 </td>
-{% comment %}
 {% include schedule/17.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -339,6 +336,9 @@ Application
 
 Programming Topics
 
+* Inheritance
+* Writing Tests
+* Duck Typing
 * Interfaces and Iteration
 * Iterators
 * Generators
