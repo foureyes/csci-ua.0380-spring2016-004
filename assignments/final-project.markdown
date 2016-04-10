@@ -17,16 +17,16 @@ img {
 
 # CSCI-UA.0380 Final Project 
 
-## Due Monday, May 4th
+## Due Wednesday, May 4th
 
 You can create __anything__ you want for your final project, as long as it meets the technical requirements below!
 
 ### Milestones
 
-* <code>4/11</code> - proposals / meetings due (this can change!)
-* <code>4/18</code> - first milestone (tbd, likely show use of 1 of each below requirements)
-* <code>4/25</code> - second milestone
-* <code>5/2 </code> - completed project
+* <code>4/13</code> - [proposals / meetings due (just fill out this linked form!)](https://docs.google.com/a/nyu.edu/forms/d/1g_CCYErNUJFT09RPcS2WkEY4hQVo-LswytQ5MULfxOc/viewform)
+* <code>4/20</code> - first milestone (tbd, likely show use of 1 of each below requirements)
+* <code>4/27</code> - second milestone
+* <code>5/4 </code> - completed project
 
 ## Requirements
 
