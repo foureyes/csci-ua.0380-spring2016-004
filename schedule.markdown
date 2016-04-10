@@ -334,18 +334,8 @@ Application
 <tr><td>18</td><td><strong>Apr 4</strong><br>Mon</td>
 <td markdown="block">
 
-Programming Topics
+Class Cancelled
 
-* Inheritance
-* Writing Tests
-* Duck Typing
-* Interfaces and Iteration
-* Iterators
-* Generators
-
-Application
-
-* Digital Signal Processing
 </td>
 {% comment %}
 {% include schedule/18.markdown %}
@@ -354,18 +344,23 @@ Application
  </tr>
 
 
+
 <!-- ------------ --><a name="19"></a>
 <tr><td>19</td><td><strong>Apr 6</strong><br>Wed</td>
 <td markdown="block">
-
 Programming Topics
 
-* Interfaces and Iteration Continued
+* Decorators and Classes
+* Socket Programming
+* HTTP
+
+Application
+
+* Creating a web server
+* Creating a web framework
 </td>
-{% comment %}
+
 {% include schedule/19.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -375,12 +370,15 @@ Programming Topics
 
 Programming Topics
 
-* Machine Learning
-* scikit learn (maybe)
+* Using a web framework (Flask)
+* Inheritance
+* Writing Tests
+* Duck Typing
 
 Application
 
-* Clustering
+* A simple web app
+
 </td>
 {% comment %}
 {% include schedule/20.markdown %}
@@ -392,10 +390,18 @@ Application
 <!-- ------------ --><a name="21"></a>
 <tr><td>21</td><td><strong>Apr 13</strong><br>Wed</td>
 <td markdown="block">
-
 Programming Topics
 
-* Machine Learning Continued
+* Interfaces and Iteration
+* Iterators
+* Generators
+
+Application
+
+* Digital Signal Processing
+
+
+
 </td>
 {% comment %}
 {% include schedule/21.markdown %}
@@ -407,15 +413,15 @@ Programming Topics
 <!-- ------------ --><a name="22"></a>
 <tr><td>22</td><td><strong>Apr 18</strong><br>Mon</td>
 <td markdown="block">
-
 Programming Topics
 
-* serial communication (maybe)
+* Machine Learning
+* scikit learn (maybe)
 
 Application
 
-* Communication with Hardware
-* Sensor Input
+* Clustering
+
 </td>
 {% comment %}
 {% include schedule/22.markdown %}
@@ -468,7 +474,12 @@ Application
 
 Programming Topics
 
-* Event Driven Programming Continued
+* serial communication (maybe)
+
+Application
+
+* Communication with Hardware
+* Sensor Input
 </td>
 {% comment %}
 {% include schedule/25.markdown %}
