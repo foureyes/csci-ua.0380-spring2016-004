@@ -371,19 +371,15 @@ Application
 Programming Topics
 
 * Using a web framework (Flask)
-* Inheritance
-* Writing Tests
-* Duck Typing
+    * Forms
+    * Strings
 
 Application
 
 * A simple web app
 
 </td>
-{% comment %}
 {% include schedule/20.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -392,21 +388,31 @@ Application
 <td markdown="block">
 Programming Topics
 
-* Interfaces and Iteration
+* More OOP! 
+* Inheritance
 * Iterators
 * Generators
+
+{% comment %}
+* Static Revisited
+* Private Variables, Name Mangling
+* Composition
+* Duck Typing
+* Polymorphism
+* Inheritance
+* Super, calling Super methods with self
+* Multiple Inheritance
+* more magic variables (\_\_dict\_\_)
+* Writing Tests
+* Interfaces and Iteration
+{% endcomment %}
 
 Application
 
 * Digital Signal Processing
 
-
-
 </td>
-{% comment %}
 {% include schedule/21.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

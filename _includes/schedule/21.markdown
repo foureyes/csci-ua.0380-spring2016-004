@@ -1,8 +1,5 @@
 	<td markdown="block">
-<!-- 
-* [](slides//.html)
-* [](slides//.html)
--->
+* [Repository for in class code](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class21)
 </td>
 	<td markdown="block">
 </td>
