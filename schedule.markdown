@@ -390,8 +390,6 @@ Programming Topics
 
 * More OOP! 
 * Inheritance
-* Iterators
-* Generators
 
 {% comment %}
 * Static Revisited
@@ -409,7 +407,6 @@ Programming Topics
 
 Application
 
-* Digital Signal Processing
 
 </td>
 {% include schedule/21.markdown %}
@@ -421,12 +418,12 @@ Application
 <td markdown="block">
 Programming Topics
 
-* Machine Learning
-* scikit learn (maybe)
+* Iterators
+* Generators
 
 Application
 
-* Clustering
+* Digital Signal Processing
 
 </td>
 {% comment %}
@@ -442,11 +439,12 @@ Application
 
 Programming Topics
 
-* Recursion
+* Machine Learning
+* scikit learn (maybe)
 
 Application
 
-* Fractals
+* Clustering
 </td>
 {% comment %}
 {% include schedule/23.markdown %}
@@ -461,11 +459,11 @@ Application
 
 Programming Topics
 
-* Event Driven Programming
+* Recursion
 
 Application
 
-* Game
+* Fractals
 </td>
 {% comment %}
 {% include schedule/24.markdown %}
@@ -480,12 +478,11 @@ Application
 
 Programming Topics
 
-* serial communication (maybe)
+* Event Driven Programming
 
 Application
 
-* Communication with Hardware
-* Sensor Input
+* Game
 </td>
 {% comment %}
 {% include schedule/25.markdown %}
@@ -498,7 +495,14 @@ Application
 <a name="26"></a>
 <tr><td>26</td><td><strong>May 2</strong><br>Mon</td>
 <td markdown="block">
-* TBD
+Programming Topics
+
+* serial communication (maybe)
+
+Application
+
+* Communication with Hardware
+* Sensor Input
 </td>
 {% comment %}
 {% include schedule/26.markdown %}
