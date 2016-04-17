@@ -24,8 +24,12 @@ You can create __anything__ you want for your final project, as long as it meets
 ### Milestones
 
 * <code>4/13</code> - [proposals / meetings due (just fill out this linked form!)](https://docs.google.com/a/nyu.edu/forms/d/1g_CCYErNUJFT09RPcS2WkEY4hQVo-LswytQ5MULfxOc/viewform)
-* <code>4/20</code> - first milestone (tbd, likely show use of 1 of each below requirements)
-* <code>4/27</code> - second milestone
+* <code>4/21</code> - first milestone 
+    * have 2 of your 3 classes / decorators partially implemented
+    * start on one of research modules
+    * none of the code has to be running (I just want to see some code written!)
+    * submit as a zip file of your project's directory
+* <code>4/28</code> - second milestone
 * <code>5/4 </code> - completed project
 
 ## Requirements

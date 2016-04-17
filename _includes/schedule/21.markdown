@@ -4,7 +4,13 @@
 	<td markdown="block">
 </td>
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+
+Due Thursday, April 21st
+
+* [Milestone #1](assignments/final-project.html)
+
+Due Saturday, April 23rd
+
+* [Assignment #7](assignments/hw07.html)
+
 </td>
