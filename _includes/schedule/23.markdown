@@ -1,12 +1,12 @@
 	<td markdown="block">
-* [Midterm #2 Exam Solutions](resources/handouts/midterm_2/midterm_2_solutions.pdf)
-* [Inheritance](slides/23/inheritance.html)
+
+* [Repository for in-class code](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class23)
+
 </td>
 	<td markdown="block">
 * __Chapter 11__ - Inheritance and Polymorphism
 </td>
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+
+[In-Class Activity on Iterators and Generators](https://docs.google.com/a/nyu.edu/forms/d/1K0laFNeIHHlaMQYre5VQSQvXg5xhIujFl2glQRlD3D0/viewform)
 </td>

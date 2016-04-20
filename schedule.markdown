@@ -426,10 +426,7 @@ Application
 * Digital Signal Processing
 
 </td>
-{% comment %}
 {% include schedule/22.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -439,17 +436,16 @@ Application
 
 Programming Topics
 
+* Iterators and Generators Continued
 * Machine Learning
 * scikit learn (maybe)
 
 Application
 
+* Digital Signal Processing
 * Clustering
 </td>
-{% comment %}
 {% include schedule/23.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

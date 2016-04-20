@@ -1,13 +1,15 @@
 	<td markdown="block">
-* [Finishing up Object Oriented Thinking](slides/22/oop-thinking-conclusion.html)
-	* Immutable Classes
-	* Class Relationships
-	* Primitives as Objects
-	* BigInteger, BigDecimal
-* Inheritance Preview
+
+* [Iterators documentation](https://docs.python.org/3/tutorial/classes.html#iterators)
+* [Generators documentation](https://docs.python.org/3/tutorial/classes.html#generators)
+* [Repository for in-class code (still a draft... everything is in scratch folder for now)](https://github.com/jversoza/p4a-spring-16-examples/tree/master/p4a-class22)
+
+
 </td>
 	<td markdown="block">
-* __Chapter 11__ - Inheritance and Polymorphism
+
+* Ch 12 - Your Father was a Rectangle
+
 </td>
 	<td markdown="block">
 <!--
