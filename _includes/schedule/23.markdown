@@ -4,7 +4,11 @@
 
 </td>
 	<td markdown="block">
-* __Chapter 11__ - Inheritance and Polymorphism
+* [The Python 2.3 Method Resolution Order](https://www.python.org/download/releases/2.3/mro/) by Michele Simionato.
+* [python.org's documentation on the built-in function, super](https://docs.python.org/3/library/functions.html#super)
+* [The wonders of cooperative inheritance, or using super in Python 3](https://rhettinger.wordpress.com/2011/05/26/super-considered-super/)
+* [Super Considered Harmful](https://fuhm.org/super-harmful/)
+* [Super Considered Super](http://www.artima.com/weblogs/viewpost.jsp?thread=281127)
 </td>
 	<td markdown="block">
 
