@@ -436,14 +436,12 @@ Application
 
 Programming Topics
 
+* Method Resolution Order
 * Iterators and Generators Continued
-* Machine Learning
-* scikit learn (maybe)
 
 Application
 
-* Digital Signal Processing
-* Clustering
+* Generating tones / Digital Signal Processing
 </td>
 {% include schedule/23.markdown %}
  </tr>
@@ -455,16 +453,16 @@ Application
 
 Programming Topics
 
-* Recursion
+* Finish up Iterators / Generators
+* Machine Learning
+* scikit learn (maybe)
 
 Application
 
-* Fractals
+* Generating tones / Digital Signal Processing 
+* Clustering
 </td>
-{% comment %}
 {% include schedule/24.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
@@ -474,11 +472,11 @@ Application
 
 Programming Topics
 
-* Event Driven Programming
+* Recursion
 
 Application
 
-* Game
+* Fractals
 </td>
 {% comment %}
 {% include schedule/25.markdown %}
@@ -493,12 +491,11 @@ Application
 <td markdown="block">
 Programming Topics
 
-* serial communication (maybe)
+* Event Driven Programming
 
 Application
 
-* Communication with Hardware
-* Sensor Input
+* Game
 </td>
 {% comment %}
 {% include schedule/26.markdown %}
@@ -510,7 +507,16 @@ Application
 <!-- ------------ -->
 <tr><td>27</td><td><strong>May 4</strong><br>Wed</td>
 <td markdown="block">
-__Presentations__
+
+Programming Topics
+
+* serial communication (maybe)
+
+Application
+
+* Communication with Hardware
+* Sensor Input
+
 </td>
 {% comment %}
 {% include schedule/27.markdown %}
