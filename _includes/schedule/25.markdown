@@ -1,13 +1,10 @@
 	<td markdown="block">
-* [Polymorphism Conclusion](slides/25/polymorphism-conclusion.html)
-* Maybe Exceptions
-* Maybe Commandline Arguments
+* k-means clustering!
 </td>
 	<td markdown="block">
-* __Chapter 12__ - Exceptions and File I/O
+* __Chapter 7 - Data Mining: Cluster Analysis__
 </td>
 	<td markdown="block">
-<!--
-* [](assignments/.html)
--->
+* [earthquakes.txt](resources/txt/earthquakes.txt)
+* [scores.py](resources/txt/scores.py)
 </td>

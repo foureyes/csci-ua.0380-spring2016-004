@@ -478,10 +478,7 @@ Application
 
 * Fractals
 </td>
-{% comment %}
 {% include schedule/25.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
