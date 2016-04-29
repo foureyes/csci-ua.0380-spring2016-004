@@ -29,8 +29,14 @@ You can create __anything__ you want for your final project, as long as it meets
     * start on one of research modules
     * none of the code has to be running (I just want to see some code written!)
     * submit as a zip file of your project's directory
-* <code>5/1</code> - second milestone
-* <code>5/4 </code> - completed project
+* <code>5/2</code> - second milestone
+    * have your 3rd class or decorator implemented
+    * have code for all of your research modules
+    * submit as a zip file of your project's directory
+    * have a version that _runs_ ... that is, that starts up without any syntax errors
+    * include a text file called README.txt in your project that explains how to run it
+* <code>5/7 </code> - completed project
+
 
 ## Requirements
 
