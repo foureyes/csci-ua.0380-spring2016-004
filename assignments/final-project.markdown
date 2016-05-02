@@ -17,7 +17,7 @@ img {
 
 # CSCI-UA.0380 Final Project 
 
-## Due Wednesday, May 4th
+## Due Saturday, May 7th
 
 You can create __anything__ you want for your final project, as long as it meets the technical requirements below!
 
