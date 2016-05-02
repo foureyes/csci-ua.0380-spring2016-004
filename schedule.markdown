@@ -494,10 +494,7 @@ Application
 
 * Game
 </td>
-{% comment %}
 {% include schedule/26.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
