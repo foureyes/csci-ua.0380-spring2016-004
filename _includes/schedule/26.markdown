@@ -5,7 +5,7 @@
 </td>
 	<td markdown="block">
 
-* __Chapter 7 - Data Mining: Cluster Analysis__
+* __Chapter 7__ - Data Mining: Cluster Analysis
 
 </td>
 	<td markdown="block">

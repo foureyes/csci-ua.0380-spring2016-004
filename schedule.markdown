@@ -512,10 +512,7 @@ Application
 * Sensor Input
 
 </td>
-{% comment %}
 {% include schedule/27.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 
