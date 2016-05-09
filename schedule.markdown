@@ -521,10 +521,7 @@ Application
 <td markdown="block">
 __Review__
 </td>
-{% comment %}
 {% include schedule/28.markdown %}
-{% endcomment %}
-<td></td><td></td><td></td>
  </tr>
 
 

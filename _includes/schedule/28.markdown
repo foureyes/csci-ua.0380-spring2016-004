@@ -1,13 +1,9 @@
 	<td markdown="block">
-<!-- 
-* [](slides//.html)
-* [](slides//.html)
--->
+*  [sample questions for final](resources/handouts/final/final_practice.pdf) 
+*  [...aaand their solutions!](resources/handouts/final/final_practice_solutions.pdf)
+
 </td>
 	<td markdown="block">
-* __Chapter 13__ - Abstract Classes and Interfaces
-* __Chapter 18__ - Recursion (Demo)
-* Review
 </td>
 	<td markdown="block">
 <!--
