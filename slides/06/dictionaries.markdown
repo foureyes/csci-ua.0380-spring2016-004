@@ -200,7 +200,7 @@ size
 <section markdown="block">
 ## Iterating Over Dictionaries Continued
 
-__What can we conclude about dictionaries and iteration bsed on the output from the previous slides?__ &rarr;
+__What can we conclude about dictionaries and iteration based on the output from the previous slides?__ &rarr;
 
 * {:.fragment} iterating over a dictionary yields __keys only__
 * {:.fragment} again, dictionaries are __unordered__!
@@ -417,7 +417,7 @@ print(vehicle)
 * how do we construct a dictionary literal?
 * how do we create an empty dictionary?
 * are dictionaries mutable or immutable?
-* are dictionaries ordered or unordered
+* are dictionaries ordered or unordered?
 * how do we access a value at a key... what happens if they key doesn't exist?
 * what's the exception to the above?
 * what's another way of accessing a value?
@@ -459,7 +459,7 @@ o 1
 <section markdown="block">
 ## Counting Letters By Checking for Key
 
-__Check to see if the key exists first (using <code>in</code>; if it does, increment... otherwise, create a new key value pair!__ &Rarr;
+__Check to see if the key exists first (using <code>in</code>; if it does, increment... otherwise, create a new key value pair!__ &rarr;
 
 <pre><code data-trim contenteditable>
 word = input("Enter a word\n>")
@@ -467,7 +467,7 @@ d = {}
 for c in word:
     if c in d:
         d[c] += 1
-    else::
+    else:
         d[c] = 1
 for k,v in d.items():
     print(k, v)

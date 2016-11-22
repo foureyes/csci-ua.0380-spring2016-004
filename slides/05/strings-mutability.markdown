@@ -31,7 +31,7 @@ HINT: These functions don't actually remove letters from the original string - i
 
 In the following examples, __we'll _simulate_ removing <code>r</code> from <code>carts</code>. We'll start with... <code>s = 'carts'</code>__ &rarr;
 
-1. __accumulate__ into new string and leave out cahrs to be removed
+1. __accumulate__ into new string and leave out chars to be removed
     <pre><code data-trim contenteditable>
 >>> accum = ''
 >>> for ch in s:
@@ -41,7 +41,7 @@ In the following examples, __we'll _simulate_ removing <code>r</code> from <code
 </code></pre>
 2. create and __concatenate slices__ before and after the char to be removed
     <pre><code data-trim contenteditable>
->>> s = s[:2] + s[3"]
+>>> s = s[:2] + s[3:]
 </code></pre>
 3. use __replace and reassign__
     <pre><code data-trim contenteditable>

@@ -149,7 +149,7 @@ Note that the <code>split</code> method on strings also converts strings to list
 ['hw', '1,hw', '2,hw', '3']
 </code></pre>
 
-However, you <code>split</code> can't mimic the behavior of <code>list</code>:
+However, <code>split</code> can't mimic the behavior of <code>list</code>:
 
 <pre><code data-trim contenteditable>
 'hello'.split() # causes an error!
@@ -183,7 +183,7 @@ __The syntax of a list comprehension is an expression, a for clause and an if cl
 [expression ... for clause ... if clause]
 </code></pre>
 
-* __expression__ represents what the value in the new list will be based on a loop variable introcued in the _for clause_
+* __expression__ represents what the value in the new list will be based on a loop variable introduced in the _for clause_
 * the __for clause__ is a compact for __loop__; it can be any loop (like iterating over characters in a string or numbers in a range)
 * an __if clause__ that specifies a __condition__ for an element to be included in the new list
 
